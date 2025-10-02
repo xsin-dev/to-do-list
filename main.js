@@ -10,6 +10,7 @@ parent.append(inputBox);
 const input = document.createElement('input');
 input.className = 'w-[400px] h-[50px] bg-gray-300 pl-[20px]';
 input.placeholder = 'Ruyxat kiriting:';
+input.maxLength = 50;
 const addBtn = document.createElement('button');
 addBtn.className =
     'w-[100px] h-[50px] bg-green-500 text-white font-[600]';
